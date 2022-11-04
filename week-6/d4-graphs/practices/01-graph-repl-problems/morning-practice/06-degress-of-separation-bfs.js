@@ -6,7 +6,7 @@ const adjList = {
   5: [1, 2, 4],
   6: []
 }
-
+//
 function degreesOfSeparation(start, end) {
   let queue = [[start]];
   let visited = new Set(queue);
